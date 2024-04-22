@@ -1,0 +1,8 @@
+# Password
+This section of the program implements a basic password authentication system. Users are prompted to enter a username and password. The entered password is masked with asterisks as the user types for security. If the entered username and password match the predefined valid credentials (in this case, "admin" as the username and "ENRIQUE" as the password), access is granted, and the user is allowed to proceed to the inventory management system.
+
+# Inventory
+This section of the program serves as a product inventory management system. After successful authentication, users are prompted to enter the number of products they want to manage. They can then input details for each product, including the product name, price, stock quantity, and units sold. The program calculates the remaining stock for each product based on the units sold and displays the inventory table with all product details. Users can navigate through the inventory and view product information before continuing.
+
+## C++
+This is the main section of the program, titled "BMCS" (short for "Basic Management and Control System"), written in the C++ programming language. It integrates the password authentication and inventory management functionalities into a single command-line application. The program provides a user-friendly interface for managing product inventory, allowing users to authenticate securely and interactively input, view, and manage product details. It leverages various C++ libraries and features to implement password masking, input validation, and dynamic data structuring for efficient inventory management.
